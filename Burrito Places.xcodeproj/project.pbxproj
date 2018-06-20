@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12828F0A6EB196940B3D1173 /* Pods_Burrito_PlacesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C47A8F086D8D95B1F4B0F3D /* Pods_Burrito_PlacesUITests.framework */; };
+		78F0B8A2574300FD8A7C71F1 /* Pods_Burrito_PlacesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472A125946B45E50BFBF1E27 /* Pods_Burrito_PlacesTests.framework */; };
+		8F0920D4EA2FC3B449F54AE5 /* Pods_Burrito_Places.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD78B37B09086E876A0117C7 /* Pods_Burrito_Places.framework */; };
+		CE305BA120DAE602006BA86C /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE305BA020DAE602006BA86C /* Map.storyboard */; };
+		CE305BA420DAE9EC006BA86C /* MapExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE305BA320DAE9EC006BA86C /* MapExtensions.swift */; };
 		CEFDEB3920D98A280010BAD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB3820D98A280010BAD2 /* AppDelegate.swift */; };
-		CEFDEB3B20D98A280010BAD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB3A20D98A280010BAD2 /* ViewController.swift */; };
 		CEFDEB3E20D98A280010BAD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDEB3C20D98A280010BAD2 /* Main.storyboard */; };
 		CEFDEB4120D98A280010BAD2 /* Burrito_Places.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB3F20D98A280010BAD2 /* Burrito_Places.xcdatamodeld */; };
 		CEFDEB4320D98A2A0010BAD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFDEB4220D98A2A0010BAD2 /* Assets.xcassets */; };
 		CEFDEB4620D98A2A0010BAD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFDEB4420D98A2A0010BAD2 /* LaunchScreen.storyboard */; };
 		CEFDEB5120D98A2A0010BAD2 /* Burrito_PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB5020D98A2A0010BAD2 /* Burrito_PlacesTests.swift */; };
 		CEFDEB5C20D98A2A0010BAD2 /* Burrito_PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB5B20D98A2A0010BAD2 /* Burrito_PlacesUITests.swift */; };
+		CEFDEB7120D994200010BAD2 /* BurritoPlacesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB7020D994200010BAD2 /* BurritoPlacesMapViewController.swift */; };
+		CEFDEB7320D9AE840010BAD2 /* BurritoExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB7220D9AE840010BAD2 /* BurritoExtensions.swift */; };
+		CEFDEB7520D9B7890010BAD2 /* BurritoPlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB7420D9B7890010BAD2 /* BurritoPlacesTableViewController.swift */; };
+		CEFDEB7720D9B7F70010BAD2 /* BurritoPlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFDEB7620D9B7F70010BAD2 /* BurritoPlaceTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		079B368FC3DC6A296A3667DF /* Pods-Burrito PlacesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito PlacesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito PlacesTests/Pods-Burrito PlacesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C47A8F086D8D95B1F4B0F3D /* Pods_Burrito_PlacesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Burrito_PlacesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		472A125946B45E50BFBF1E27 /* Pods_Burrito_PlacesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Burrito_PlacesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE837566D450C3E7B70A971 /* Pods-Burrito PlacesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito PlacesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito PlacesUITests/Pods-Burrito PlacesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		519B404E4411003A3237C71E /* Pods-Burrito Places.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito Places.release.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito Places/Pods-Burrito Places.release.xcconfig"; sourceTree = "<group>"; };
+		5FA339F1F32433FF7BB2E589 /* Pods-Burrito PlacesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito PlacesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito PlacesUITests/Pods-Burrito PlacesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A438C69EB96A9AAFD4FE5D /* Pods-Burrito PlacesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito PlacesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito PlacesTests/Pods-Burrito PlacesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE305BA020DAE602006BA86C /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		CE305BA320DAE9EC006BA86C /* MapExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapExtensions.swift; sourceTree = "<group>"; };
 		CEFDEB3520D98A280010BAD2 /* Burrito Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burrito Places.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDEB3820D98A280010BAD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEFDEB3A20D98A280010BAD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEFDEB3D20D98A280010BAD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFDEB4020D98A280010BAD2 /* Burrito_Places.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Burrito_Places.xcdatamodel; sourceTree = "<group>"; };
 		CEFDEB4220D98A2A0010BAD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +65,12 @@
 		CEFDEB5720D98A2A0010BAD2 /* Burrito PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Burrito PlacesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFDEB5B20D98A2A0010BAD2 /* Burrito_PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burrito_PlacesUITests.swift; sourceTree = "<group>"; };
 		CEFDEB5D20D98A2A0010BAD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFDEB7020D994200010BAD2 /* BurritoPlacesMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoPlacesMapViewController.swift; sourceTree = "<group>"; };
+		CEFDEB7220D9AE840010BAD2 /* BurritoExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoExtensions.swift; sourceTree = "<group>"; };
+		CEFDEB7420D9B7890010BAD2 /* BurritoPlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoPlacesTableViewController.swift; sourceTree = "<group>"; };
+		CEFDEB7620D9B7F70010BAD2 /* BurritoPlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurritoPlaceTableViewCell.swift; sourceTree = "<group>"; };
+		DD3737411CE863554515B781 /* Pods-Burrito Places.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burrito Places.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Burrito Places/Pods-Burrito Places.debug.xcconfig"; sourceTree = "<group>"; };
+		FD78B37B09086E876A0117C7 /* Pods_Burrito_Places.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Burrito_Places.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0920D4EA2FC3B449F54AE5 /* Pods_Burrito_Places.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F0B8A2574300FD8A7C71F1 /* Pods_Burrito_PlacesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12828F0A6EB196940B3D1173 /* Pods_Burrito_PlacesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7744584AB98A2C0BB95F9CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD78B37B09086E876A0117C7 /* Pods_Burrito_Places.framework */,
+				472A125946B45E50BFBF1E27 /* Pods_Burrito_PlacesTests.framework */,
+				0C47A8F086D8D95B1F4B0F3D /* Pods_Burrito_PlacesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4F5662254A109D5AB309C20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD3737411CE863554515B781 /* Pods-Burrito Places.debug.xcconfig */,
+				519B404E4411003A3237C71E /* Pods-Burrito Places.release.xcconfig */,
+				079B368FC3DC6A296A3667DF /* Pods-Burrito PlacesTests.debug.xcconfig */,
+				C0A438C69EB96A9AAFD4FE5D /* Pods-Burrito PlacesTests.release.xcconfig */,
+				5FA339F1F32433FF7BB2E589 /* Pods-Burrito PlacesUITests.debug.xcconfig */,
+				4BE837566D450C3E7B70A971 /* Pods-Burrito PlacesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE305B9F20DAD1E0006BA86C /* BurritoTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDEB3C20D98A280010BAD2 /* Main.storyboard */,
+				CEFDEB7420D9B7890010BAD2 /* BurritoPlacesTableViewController.swift */,
+				CEFDEB7620D9B7F70010BAD2 /* BurritoPlaceTableViewCell.swift */,
+				CEFDEB7220D9AE840010BAD2 /* BurritoExtensions.swift */,
+			);
+			path = BurritoTableView;
+			sourceTree = "<group>";
+		};
+		CE305BA220DAE705006BA86C /* BurritoMap */ = {
+			isa = PBXGroup;
+			children = (
+				CE305BA020DAE602006BA86C /* Map.storyboard */,
+				CEFDEB7020D994200010BAD2 /* BurritoPlacesMapViewController.swift */,
+				CE305BA320DAE9EC006BA86C /* MapExtensions.swift */,
+			);
+			path = BurritoMap;
+			sourceTree = "<group>";
+		};
 		CEFDEB2C20D98A280010BAD2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +152,8 @@
 				CEFDEB4F20D98A2A0010BAD2 /* Burrito PlacesTests */,
 				CEFDEB5A20D98A2A0010BAD2 /* Burrito PlacesUITests */,
 				CEFDEB3620D98A280010BAD2 /* Products */,
+				A4F5662254A109D5AB309C20 /* Pods */,
+				7744584AB98A2C0BB95F9CA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +170,10 @@
 		CEFDEB3720D98A280010BAD2 /* Burrito Places */ = {
 			isa = PBXGroup;
 			children = (
-				CEFDEB3820D98A280010BAD2 /* AppDelegate.swift */,
-				CEFDEB3A20D98A280010BAD2 /* ViewController.swift */,
-				CEFDEB3C20D98A280010BAD2 /* Main.storyboard */,
-				CEFDEB4220D98A2A0010BAD2 /* Assets.xcassets */,
-				CEFDEB4420D98A2A0010BAD2 /* LaunchScreen.storyboard */,
+				CE305B9F20DAD1E0006BA86C /* BurritoTableView */,
+				CE305BA220DAE705006BA86C /* BurritoMap */,
 				CEFDEB4720D98A2A0010BAD2 /* Info.plist */,
-				CEFDEB3F20D98A280010BAD2 /* Burrito_Places.xcdatamodeld */,
+				CEFDEB6920D98A470010BAD2 /* Supporting Files */,
 			);
 			path = "Burrito Places";
 			sourceTree = "<group>";
@@ -128,6 +196,17 @@
 			path = "Burrito PlacesUITests";
 			sourceTree = "<group>";
 		};
+		CEFDEB6920D98A470010BAD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDEB3820D98A280010BAD2 /* AppDelegate.swift */,
+				CEFDEB4220D98A2A0010BAD2 /* Assets.xcassets */,
+				CEFDEB4420D98A2A0010BAD2 /* LaunchScreen.storyboard */,
+				CEFDEB3F20D98A280010BAD2 /* Burrito_Places.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFDEB6020D98A2A0010BAD2 /* Build configuration list for PBXNativeTarget "Burrito Places" */;
 			buildPhases = (
+				A4BBB7A38C450572635585E0 /* [CP] Check Pods Manifest.lock */,
 				CEFDEB3120D98A280010BAD2 /* Sources */,
 				CEFDEB3220D98A280010BAD2 /* Frameworks */,
 				CEFDEB3320D98A280010BAD2 /* Resources */,
+				AAD165BD4915C68D38336738 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFDEB6320D98A2A0010BAD2 /* Build configuration list for PBXNativeTarget "Burrito PlacesTests" */;
 			buildPhases = (
+				E3DF196CA5543DC9BCD132A2 /* [CP] Check Pods Manifest.lock */,
 				CEFDEB4820D98A2A0010BAD2 /* Sources */,
 				CEFDEB4920D98A2A0010BAD2 /* Frameworks */,
 				CEFDEB4A20D98A2A0010BAD2 /* Resources */,
@@ -170,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEFDEB6620D98A2A0010BAD2 /* Build configuration list for PBXNativeTarget "Burrito PlacesUITests" */;
 			buildPhases = (
+				753385E06CADE8D063ADCB9A /* [CP] Check Pods Manifest.lock */,
 				CEFDEB5320D98A2A0010BAD2 /* Sources */,
 				CEFDEB5420D98A2A0010BAD2 /* Frameworks */,
 				CEFDEB5520D98A2A0010BAD2 /* Resources */,
@@ -235,6 +318,7 @@
 				CEFDEB4620D98A2A0010BAD2 /* LaunchScreen.storyboard in Resources */,
 				CEFDEB4320D98A2A0010BAD2 /* Assets.xcassets in Resources */,
 				CEFDEB3E20D98A280010BAD2 /* Main.storyboard in Resources */,
+				CE305BA120DAE602006BA86C /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +338,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		753385E06CADE8D063ADCB9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Burrito PlacesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BBB7A38C450572635585E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Burrito Places-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD165BD4915C68D38336738 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Burrito Places/Pods-Burrito Places-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Burrito Places/Pods-Burrito Places-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DF196CA5543DC9BCD132A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Burrito PlacesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEFDEB3120D98A280010BAD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFDEB3B20D98A280010BAD2 /* ViewController.swift in Sources */,
 				CEFDEB3920D98A280010BAD2 /* AppDelegate.swift in Sources */,
+				CE305BA420DAE9EC006BA86C /* MapExtensions.swift in Sources */,
+				CEFDEB7720D9B7F70010BAD2 /* BurritoPlaceTableViewCell.swift in Sources */,
+				CEFDEB7120D994200010BAD2 /* BurritoPlacesMapViewController.swift in Sources */,
+				CEFDEB7520D9B7890010BAD2 /* BurritoPlacesTableViewController.swift in Sources */,
 				CEFDEB4120D98A280010BAD2 /* Burrito_Places.xcdatamodeld in Sources */,
+				CEFDEB7320D9AE840010BAD2 /* BurritoExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +599,7 @@
 		};
 		CEFDEB6120D98A2A0010BAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3737411CE863554515B781 /* Pods-Burrito Places.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +618,7 @@
 		};
 		CEFDEB6220D98A2A0010BAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519B404E4411003A3237C71E /* Pods-Burrito Places.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +637,7 @@
 		};
 		CEFDEB6420D98A2A0010BAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079B368FC3DC6A296A3667DF /* Pods-Burrito PlacesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +659,7 @@
 		};
 		CEFDEB6520D98A2A0010BAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A438C69EB96A9AAFD4FE5D /* Pods-Burrito PlacesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +681,7 @@
 		};
 		CEFDEB6720D98A2A0010BAD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA339F1F32433FF7BB2E589 /* Pods-Burrito PlacesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +702,7 @@
 		};
 		CEFDEB6820D98A2A0010BAD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE837566D450C3E7B70A971 /* Pods-Burrito PlacesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
